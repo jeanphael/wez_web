@@ -1,0 +1,8 @@
+CRITICAL - 2021-03-05 02:43:01 --> Use of undefined constant left - assumed 'left' (this will throw an Error in a future version of PHP)
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Models/EventModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/wezmg/dom...', 128, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventWSController.php(88): App\Models\EventModel->eventDetailsws()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventWSController->eventDetails()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

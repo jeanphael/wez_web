@@ -1,0 +1,33 @@
+CRITICAL - 2020-06-01 09:38:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getStatusCode()
+#0 C:\wamp64\www\event\app\Controllers\EventWSController.php(33): App\Models\EventModel->eventList()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventWSController->eventList()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-01 09:39:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getStatusCode()
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventWSController->eventList()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-01 09:40:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getStatusCode()
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventWSController->eventList()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-01 09:53:11 --> Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\event\app\Controllers\UserWSController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\e...', 47, Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userRegistration()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-01 10:50:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\wamp64\www\event\app\Controllers\UserWSController.php(32): App\Models\UserAccountModel->userConnexion('madagascar', 'pha')
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userConnexion()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

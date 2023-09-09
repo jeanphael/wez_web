@@ -1,0 +1,6 @@
+CRITICAL - 2020-05-22 14:03:03 --> Class 'App\Controllers\Event' not found
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventWSController->saveEvent()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

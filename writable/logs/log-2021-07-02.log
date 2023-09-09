@@ -1,0 +1,58 @@
+CRITICAL - 2021-07-02 00:34:13 --> Invalid file: activate_organizer.php
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('activate_organi...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('activate_organi...', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/OrganizerController.php(272): view('activate_organi...', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\OrganizerController->save()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-02 02:07:05 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/wezmg/dom...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-02 02:12:19 --> Invalid file: email_format.php
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email_format.ph...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('email_format', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/OrganizerController.php(348): view('email_format', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\OrganizerController->pageActivation()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-02 03:08:53 --> Call to a member function view() on null
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/OrganizerController.php(362): App\Controllers\OrganizerController->sendEmail('hajatiana', '', 'hajatiana.ramam...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\OrganizerController->pageActivation()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-02 03:09:36 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/wezmg/dom...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-02 03:10:00 --> Invalid file: email_format.php
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email_format.ph...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('email_format', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/OrganizerController.php(312): view('email_format')
+#3 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/OrganizerController.php(362): App\Controllers\OrganizerController->sendEmail('hajatiana', '', 'hajatiana.ramam...')
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\OrganizerController->pageActivation()
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-02 07:12:34 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

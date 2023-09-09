@@ -1,0 +1,34 @@
+CRITICAL - 2021-11-26 05:54:26 --> A non-numeric value encountered
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Views/evenement_info.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/wezmg/dom...', 173, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include('/home/wezmg/dom...')
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#3 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1425): view('evenement_info', Array)
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-26 05:55:10 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1425): view('evenement_info', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-26 05:56:27 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1425): view('evenement_info', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-26 05:59:04 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1425): view('evenement_info', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

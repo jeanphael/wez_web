@@ -1,0 +1,6 @@
+CRITICAL - 2020-07-26 05:53:53 --> Call to a member function eventById() on null
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->details()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

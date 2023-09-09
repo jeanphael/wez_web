@@ -1,0 +1,81 @@
+CRITICAL - 2020-06-19 01:28:02 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\event\app\Controllers\UserController.php on line 122
+#0 C:\wamp64\www\event\app\Controllers\UserController.php(122): view('utilisateur_lis...', NULL)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserController->deleteUser()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 03:45:33 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\event\app\Controllers\UserController.php on line 122
+#0 C:\wamp64\www\event\app\Controllers\UserController.php(122): view('utilisateur_lis...', NULL)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserController->deleteUser()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 03:47:09 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\event\app\Controllers\UserController.php on line 122
+#0 C:\wamp64\www\event\app\Controllers\UserController.php(122): view('utilisateur_lis...', NULL)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserController->deleteUser()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 06:15:01 --> There is no data to update.
+#0 C:\wamp64\www\event\system\Model.php(809): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\event\app\Models\CategoryModel.php(35): CodeIgniter\Model->update(NULL)
+#2 C:\wamp64\www\event\app\Controllers\CategoryController.php(33): App\Models\CategoryModel->deleteCategory(NULL)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\CategoryController->deleteCategory()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 06:17:54 --> There is no data to update.
+#0 C:\wamp64\www\event\system\Model.php(809): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\event\app\Models\CategoryModel.php(35): CodeIgniter\Model->update(NULL)
+#2 C:\wamp64\www\event\app\Controllers\CategoryController.php(33): App\Models\CategoryModel->deleteCategory(NULL)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\CategoryController->deleteCategory()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 06:18:00 --> There is no data to update.
+#0 C:\wamp64\www\event\system\Model.php(809): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\event\app\Models\CategoryModel.php(35): CodeIgniter\Model->update(NULL)
+#2 C:\wamp64\www\event\app\Controllers\CategoryController.php(33): App\Models\CategoryModel->deleteCategory(NULL)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\CategoryController->deleteCategory()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 06:19:30 --> There is no data to update.
+#0 C:\wamp64\www\event\system\Model.php(809): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\event\app\Models\CategoryModel.php(35): CodeIgniter\Model->update(Array)
+#2 C:\wamp64\www\event\app\Controllers\CategoryController.php(33): App\Models\CategoryModel->deleteCategory('3')
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\CategoryController->deleteCategory()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 07:26:46 --> Too few arguments to function App\Controllers\PointOfSaleWSController::savePointOfSale(), 0 passed in C:\wamp64\www\event\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PointOfSaleWSController->savePointOfSale()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PointOfSaleWSController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 07:29:20 --> Too few arguments to function App\Controllers\PointOfSaleWSController::updatePointOfSale(), 0 passed in C:\wamp64\www\event\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PointOfSaleWSController->updatePointOfSale()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PointOfSaleWSController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 07:46:44 --> Too few arguments to function App\Controllers\OrganizerWSController::saveOrganizer(), 0 passed in C:\wamp64\www\event\system\CodeIgniter.php on line 914 and exactly 4 expected
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerWSController->saveOrganizer()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerWSController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 08:50:22 --> Too few arguments to function App\Controllers\UserWSController::updateUser(), 0 passed in C:\wamp64\www\event\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->updateUser()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

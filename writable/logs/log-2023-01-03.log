@@ -1,0 +1,28 @@
+CRITICAL - 2023-01-03 11:58:54 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php on line 2031
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2031): view('evenement_info', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 11:59:00 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php on line 2031
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2031): view('evenement_info', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 11:59:04 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php on line 2031
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2031): view('evenement_info', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 11:59:14 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php on line 2031
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2031): view('evenement_info', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

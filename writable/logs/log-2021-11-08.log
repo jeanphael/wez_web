@@ -1,0 +1,64 @@
+CRITICAL - 2021-11-08 07:53:46 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sizeof(): Param...', '/home/wezmg/dom...', 29, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Views/menu.php(29): sizeof(NULL)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Views/evenement_ajout_refonte.php(41): include('/home/wezmg/dom...')
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include('/home/wezmg/dom...')
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_ajout...', Array, true)
+#5 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1233): view('evenement_ajout...', Array)
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageAjoutEvenement()
+#7 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#8 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-08 07:55:56 --> syntax error, unexpected '}', expecting end of file
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_ajout...', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1233): view('evenement_ajout...', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageAjoutEvenement()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-08 22:32:50 --> Cannot add or update a child row: a foreign key constraint fails (`wezmg_wezdb`.`token`, CONSTRAINT `token_ibfk_1` FOREIGN KEY (`idUser`) REFERENCES `user` (`idUser`) ON DELETE CASCADE)
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `to...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/Database/BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/app/Models/TokenModel.php(26): CodeIgniter\Model->save(Object(App\Entities\Token))
+#7 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/TokenWSController.php(22): App\Models\TokenModel->saveToken(Object(App\Entities\Token))
+#8 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\TokenWSController->saveToken()
+#9 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TokenWSController))
+#10 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-08 23:07:50 --> syntax error, unexpected 'if' (T_IF), expecting '('
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1281): view('evenement_info', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-08 23:28:15 --> Call to undefined method App\Models\EventModel::eventUpdateState
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(36): CodeIgniter\Model->__call('eventUpdateStat...', Array)
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->eventUpdateState()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 23:43:05 --> Class 'App\Controllers\date' not found
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->eventUpdateState()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-08 23:49:26 --> date() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', '/home/wezmg/dom...', 44, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(44): date()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->eventUpdateState()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

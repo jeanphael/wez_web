@@ -1,0 +1,173 @@
+CRITICAL - 2020-06-16 08:33:36 --> Illegal string offset 'name'
+#0 C:\wamp64\www\event\app\Views\organisateur_ajout.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\e...', 38, Array)
+#1 C:\wamp64\www\event\system\View\View.php(246): include('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_aj...', Array, true)
+#3 C:\wamp64\www\event\app\Controllers\OrganizerController.php(126): view('organisateur_aj...', Array)
+#4 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->update()
+#5 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-16 08:35:04 --> Illegal string offset 'email'
+#0 C:\wamp64\www\event\app\Views\organisateur_ajout.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\e...', 38, Array)
+#1 C:\wamp64\www\event\system\View\View.php(246): include('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_aj...', Array, true)
+#3 C:\wamp64\www\event\app\Controllers\OrganizerController.php(126): view('organisateur_aj...', Array)
+#4 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->update()
+#5 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-16 08:35:53 --> Illegal string offset 'email'
+#0 C:\wamp64\www\event\app\Views\organisateur_ajout.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\e...', 38, Array)
+#1 C:\wamp64\www\event\system\View\View.php(246): include('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_aj...', Array, true)
+#3 C:\wamp64\www\event\app\Controllers\OrganizerController.php(126): view('organisateur_aj...', Array)
+#4 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->update()
+#5 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-16 08:35:54 --> Illegal string offset 'email'
+#0 C:\wamp64\www\event\app\Views\organisateur_ajout.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\e...', 38, Array)
+#1 C:\wamp64\www\event\system\View\View.php(246): include('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_aj...', Array, true)
+#3 C:\wamp64\www\event\app\Controllers\OrganizerController.php(126): view('organisateur_aj...', Array)
+#4 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->update()
+#5 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-16 09:44:23 --> syntax error, unexpected ',', expecting variable (T_VARIABLE)
+#0 C:\wamp64\www\event\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\event\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\event\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\event\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-16 09:54:27 --> Call to undefined method App\Models\CategoryModel::updateCategory
+#0 C:\wamp64\www\event\app\Controllers\CategoryController.php(52): CodeIgniter\Model->__call('updateCategory', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\CategoryController->updateCategory()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 10:17:50 --> Too few arguments to function App\Controllers\UserController::updateUser(), 0 passed in C:\wamp64\www\event\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserController->updateUser()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-16 10:22:05 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:39:02 --> Class 'App\Controllers\Category' not found
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PlaceController->updatePlace()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaceController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-16 11:40:15 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:02 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:02 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:03 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:03 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:03 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:03 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:04 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:04 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:04 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:04 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:47:04 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:51:48 --> Call to undefined method App\Models\PriceModel::updatePrice
+#0 C:\wamp64\www\event\app\Controllers\PriceController.php(54): CodeIgniter\Model->__call('updatePrice', Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->updatePrice()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 11:58:46 --> Class 'App\Controllers\Category' not found
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PlaceController->updatePlace()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaceController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

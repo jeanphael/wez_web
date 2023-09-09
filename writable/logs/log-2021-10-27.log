@@ -1,0 +1,42 @@
+CRITICAL - 2021-10-27 01:08:21 --> Cannot redeclare App\Models\UserModel::userListAdmin()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-27 01:09:48 --> Invalid file: evenement_info.php
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('evenement_info....')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1247): view('evenement_info', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-27 01:09:55 --> Invalid file: evenement_info.php
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('evenement_info....')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1247): view('evenement_info', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-27 01:10:00 --> Cannot use object of type stdClass as array
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\OrganizerController->listeRefonte()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-27 01:11:57 --> Cannot use object of type stdClass as array
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\OrganizerController->listeRefonte()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-27 01:16:07 --> Invalid file: profil.php
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('profil', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(668): view('profil', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->pageProfil()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

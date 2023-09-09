@@ -1,0 +1,8 @@
+CRITICAL - 2022-05-16 12:29:03 --> syntax error, unexpected 'assets' (T_STRING), expecting ',' or ';'
+#0 /home/wezmg/domains/wez.mg/public_html/system/Common.php(1087): CodeIgniter\View\View->render('profil', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/app/Controllers/UserController.php(782): view('profil', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\UserController->pageProfil()
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

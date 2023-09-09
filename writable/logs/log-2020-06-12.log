@@ -1,0 +1,13 @@
+CRITICAL - 2020-06-12 10:46:46 --> Call to undefined method App\Entities\Event::save()
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->save()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 10:48:23 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\event\app\Controllers\EventController.php on line 78
+#0 C:\wamp64\www\event\app\Controllers\EventController.php(78): view('evenement_liste', NULL)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->save()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

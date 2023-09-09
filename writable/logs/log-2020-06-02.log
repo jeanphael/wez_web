@@ -1,0 +1,94 @@
+CRITICAL - 2020-06-02 13:23:35 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\event\app\Controllers\EventController.php on line 16
+#0 C:\wamp64\www\event\app\Controllers\EventController.php(16): view('evenement_liste', NULL)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-02 13:24:28 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\event\app\Controllers\EventController.php on line 16
+#0 C:\wamp64\www\event\app\Controllers\EventController.php(16): view('evenement_liste', NULL)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-02 13:24:29 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\event\app\Controllers\EventController.php on line 16
+#0 C:\wamp64\www\event\app\Controllers\EventController.php(16): view('evenement_liste', NULL)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-02 13:34:53 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_liste', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(15): view('evenement_liste', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-02 13:36:48 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_liste', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(16): view('evenement_liste', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-02 13:36:55 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_liste', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(16): view('evenement_liste', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-02 13:37:05 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_liste', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(16): view('evenement_liste', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-02 13:38:38 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_liste', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(16): view('evenement_liste', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-02 13:38:40 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_liste', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(16): view('evenement_liste', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-02 13:38:44 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_liste', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(16): view('evenement_liste', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-02 14:00:29 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\event\app\Views\evenement_liste.php(252): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\e...', 252, Array)
+#1 C:\wamp64\www\event\system\View\View.php(246): include('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_liste', Array, true)
+#3 C:\wamp64\www\event\app\Controllers\EventController.php(17): view('evenement_liste', Array)
+#4 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->liste()
+#5 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

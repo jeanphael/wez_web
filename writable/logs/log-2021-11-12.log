@@ -1,0 +1,61 @@
+CRITICAL - 2021-11-12 00:24:19 --> syntax error, unexpected '@', expecting ']'
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/wezmg/dom...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-12 00:35:59 --> syntax error, unexpected 'if' (T_IF)
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/wezmg/dom...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-12 00:36:02 --> syntax error, unexpected 'if' (T_IF)
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/wezmg/dom...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-12 20:31:19 --> syntax error, unexpected end of file
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1319): view('evenement_info', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-12 20:31:25 --> syntax error, unexpected end of file
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1347): view('evenement_info', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-12 20:31:30 --> syntax error, unexpected end of file
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_info', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1347): view('evenement_info', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-12 23:52:55 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php on line 1413
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1413): view('evenement_info', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

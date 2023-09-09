@@ -1,0 +1,64 @@
+CRITICAL - 2022-03-25 00:57:57 --> syntax error, unexpected '2592000' (T_LNUMBER), expecting ')'
+#0 /home/wezmg/domains/wez.mg/public_html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/wezmg/dom...')
+#1 /home/wezmg/domains/wez.mg/public_html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-25 01:09:57 --> Cannot use object of type CodeIgniter\HTTP\RedirectResponse as array
+#0 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->listeRefonte()
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-25 01:17:03 --> Cannot use object of type CodeIgniter\HTTP\RedirectResponse as array
+#0 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->listeRefonte()
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-25 01:19:21 --> Call to undefined method App\Controllers\EventController::getListEventByDetail()
+#0 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->listeRefonte()
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-25 01:20:20 --> Cannot use object of type CodeIgniter\HTTP\RedirectResponse as array
+#0 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->listeRefonte()
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-25 02:26:32 --> Call to a member function set() on null
+#0 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\UserController->connexionValidationRefonte()
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-25 02:38:23 --> Cookie names cannot contain any of the following '=,; \t\r\n\013\014'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cookie names ca...', '/home/wezmg/dom...', 60, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/app/Controllers/UserController.php(60): setcookie('cookname ', '', 1616657903)
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\UserController->deconnexionRefonte()
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-25 02:40:55 --> Cookie names cannot contain any of the following '=,; \t\r\n\013\014'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cookie names ca...', '/home/wezmg/dom...', 124, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/app/Controllers/UserController.php(124): setcookie('cookname ', 'admin', 1679730055, '/')
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\UserController->connexionValidationRefonte()
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-25 03:19:25 --> setcookie() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'setcookie() exp...', '/home/wezmg/dom...', 136, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/app/Controllers/UserController.php(136): setcookie('user', Object(stdClass), 1679732365, '/')
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\UserController->connexionValidationRefonte()
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

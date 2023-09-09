@@ -1,0 +1,13 @@
+CRITICAL - 2022-01-08 04:11:43 --> Duplicate entry '3-273' for key 'PRIMARY'
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ti...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/Database/BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(346): CodeIgniter\Model->save(Object(App\Entities\Ticket))
+#7 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->saveRefont()
+#8 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#9 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

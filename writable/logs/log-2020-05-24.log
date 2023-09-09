@@ -1,0 +1,93 @@
+CRITICAL - 2020-05-24 10:27:15 --> Encrypter needs a starter key.
+#0 C:\wamp64\www\event\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\wamp64\www\event\system\Config\Services.php(234): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\wamp64\www\event\app\Controllers\UserWSController.php(35): CodeIgniter\Config\Services::encrypter()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userRegistration()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-24 10:27:56 --> Encrypter needs a starter key.
+#0 C:\wamp64\www\event\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\wamp64\www\event\system\Config\Services.php(234): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\wamp64\www\event\app\Controllers\UserWSController.php(35): CodeIgniter\Config\Services::encrypter()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userRegistration()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-24 10:28:56 --> Encrypter needs a starter key.
+#0 C:\wamp64\www\event\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\wamp64\www\event\system\Config\Services.php(234): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\wamp64\www\event\app\Controllers\UserWSController.php(35): CodeIgniter\Config\Services::encrypter()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userRegistration()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-24 10:30:52 --> Encrypter needs a starter key.
+#0 C:\wamp64\www\event\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\wamp64\www\event\system\Config\Services.php(234): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\wamp64\www\event\app\Controllers\UserWSController.php(35): CodeIgniter\Config\Services::encrypter()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userRegistration()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-24 10:41:00 --> Encrypter needs a starter key.
+#0 C:\wamp64\www\event\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\wamp64\www\event\system\Config\Services.php(234): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\wamp64\www\event\app\Controllers\UserWSController.php(35): CodeIgniter\Config\Services::encrypter()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userRegistration()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-24 10:42:34 --> Encrypter needs a starter key.
+#0 C:\wamp64\www\event\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\wamp64\www\event\system\Config\Services.php(234): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\wamp64\www\event\app\Controllers\UserWSController.php(36): CodeIgniter\Config\Services::encrypter()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userRegistration()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-24 10:47:12 --> Encrypter needs a starter key.
+#0 C:\wamp64\www\event\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\wamp64\www\event\system\Config\Services.php(234): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\wamp64\www\event\app\Controllers\UserWSController.php(36): CodeIgniter\Config\Services::encrypter()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userRegistration()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-24 11:26:43 --> Call to a member function decrypt() on null
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userConnexion()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 11:29:30 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\event\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\event\app\Controllers\UserWSController.php(33): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xA0\x1C?N??r6M\xCB\x91n?\x12\v')
+#2 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userConnexion()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#4 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-24 11:31:17 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\event\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\event\app\Controllers\UserWSController.php(33): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xA0\x1C?N??r6M\xCB\x91n?\x12\v')
+#2 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userConnexion()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#4 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-24 11:31:20 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\event\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\event\app\Controllers\UserWSController.php(33): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xA0\x1C?N??r6M\xCB\x91n?\x12\v')
+#2 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\UserWSController->userConnexion()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#4 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

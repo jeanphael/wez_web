@@ -1,0 +1,8 @@
+CRITICAL - 2022-02-10 03:16:56 --> Invalid argument supplied for foreach()
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Models/UserModel.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/wezmg/dom...', 193, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(189): App\Models\UserModel->updateUser('36', Object(stdClass))
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->validationResetPassword()
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

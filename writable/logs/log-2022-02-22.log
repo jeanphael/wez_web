@@ -1,0 +1,81 @@
+CRITICAL - 2022-02-22 04:55:41 --> Argument 2 passed to view() must be of the type array, null given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php on line 34
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(34): view('loginrefonte', NULL)
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->connexionRefonte()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 04:57:40 --> Argument 2 passed to view() must be of the type array, null given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php on line 34
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(34): view('loginrefonte', NULL)
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->connexionRefonte()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 04:57:46 --> Argument 2 passed to view() must be of the type array, null given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php on line 35
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(35): view('loginrefonte', NULL)
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->connexionRefonte()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 05:15:19 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/wezmg/dom...')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-22 07:26:27 --> Cannot use object of type stdClass as array
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_liste...', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(442): view('evenement_liste...', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->listeRefonte()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-22 07:28:25 --> Cannot use object of type stdClass as array
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\OrganizerController->listeRefonte()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 08:01:37 --> Argument 2 passed to view() must be of the type array, null given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php on line 756
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(756): view('lp_connexion', NULL)
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->lpconnexion()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 08:02:08 --> Argument 2 passed to view() must be of the type array, null given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php on line 764
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(764): view('lp_home', NULL)
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->lphome()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 12:11:15 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php on line 1773
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1773): view('evenement_info', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 12:11:21 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php on line 1773
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(1773): view('evenement_info', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 12:11:26 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/GestionController.php on line 65
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/GestionController.php(65): view('gestion_publica...', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\GestionController->cout()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

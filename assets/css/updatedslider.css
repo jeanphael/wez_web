@@ -1,0 +1,170 @@
+#updatedSlider {
+    position: relative;
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    #updatedSlider {
+        border-color: transparent;
+    }
+}
+
+
+#updatedSlider .MS-content {
+    margin: 15px 5%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+    #updatedSlider .MS-content {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    #updatedSlider .MS-content {
+        margin: 0;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    #updatedSlider .MS-content .item {
+        width: 30% !important;
+	margin-left: 2%;
+    	margin-right: 2%;
+    }
+    #updatedSlider .MS-content {
+        padding-top: 35px;
+    }
+ .MS-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    #updatedSlider .MS-content .item {
+        width: 30% !important;
+	margin-left: 2%;
+    	margin-right:2%;
+    }
+    #updatedSlider .MS-content {
+        padding-top: 25px;
+    }
+ .MS-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    #updatedSlider .MS-content .item {
+        width: 30%;
+	margin-left: 5%;
+   	 margin-right: 5%;
+    }
+    #updatedSlider .MS-content {
+        padding-top: 10px;
+    }
+    .MS-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+#updatedSlider .MS-content .item p {
+    margin: 0;
+    padding: 6px 5px;
+    display: flex;
+}
+
+span.eventText {
+    white-space: initial;
+}
+
+#updatedSlider .MS-controls button {
+    position: absolute;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    outline: 0;
+    top: 35px;
+}
+
+@media (max-width: 767px) {
+    #updatedSlider .MS-controls button {
+        /* display: none; */
+    }
+}
+
+#updatedSlider .MS-controls button:hover {
+    cursor: pointer;
+}
+
+#updatedSlider .MS-controls .MS-right {
+    right: 30px;
+    bottom: 0px;
+}
+
+#updatedSlider .MS-controls .MS-left {
+    left: 281px;
+    bottom: -0px;
+}
+
+@media (max-width: 1200px) {
+    #updatedSlider .MS-controls .MS-right {
+        right: 15px;
+        bottom: -25px;
+    }
+    #updatedSlider .MS-controls .MS-left {
+        left: 20px;
+        bottom: -25px;
+    }
+}
+
+@media (max-width: 992px) {
+    #updatedSlider .MS-controls .MS-right {
+        right: 6px;
+        bottom: -25px;
+    }
+
+    #updatedSlider .MS-controls .MS-left {
+        bottom: -25px;
+        left: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    #updatedSlider .MS-controls .MS-right {
+        right: 6px;
+        bottom: 180px;
+    }
+    #updatedSlider .MS-controls .MS-left {
+        left: 10px;
+        bottom: 180px;
+    }
+}
+
+button#previous-slide{
+    display: none;
+}
+
+/* ---------------------------- ITEM (Un evenement) ---------------------------- */
+
+.fa-chevron-right,
+.fa-chevron-left {
+    width: 52px;
+    height: 52px;
+    background: #ffffffab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid #f1f1f1;
+    font-size: 22px;
+}

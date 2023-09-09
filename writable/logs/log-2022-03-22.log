@@ -1,0 +1,19 @@
+CRITICAL - 2022-03-22 09:19:58 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/wezmg/domains/wez.mg/public_html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/wezmg/dom...')
+#1 /home/wezmg/domains/wez.mg/public_html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cate...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cate...')
+#3 /home/wezmg/domains/wez.mg/public_html/app/Controllers/UserController.php(106): spl_autoload_call('App\\Models\\Cate...')
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\UserController->index()
+#5 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-22 09:20:41 --> Cannot use object of type stdClass as array
+#0 /home/wezmg/domains/wez.mg/public_html/system/View/View.php(246): include()
+#1 /home/wezmg/domains/wez.mg/public_html/system/Common.php(1087): CodeIgniter\View\View->render('lp_home', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/app/Controllers/UserController.php(110): view('lp_home', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\UserController->index()
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

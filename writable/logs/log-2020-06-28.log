@@ -1,0 +1,25 @@
+CRITICAL - 2020-06-28 06:02:55 --> Access denied for user '****'@'localhost' (using password: NO)
+#0 /home/wezmg/domains/wez.mg/public_html/event_old/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/wezmg/domains/wez.mg/public_html/event_old/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/wezmg/domains/wez.mg/public_html/event_old/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/wezmg/domains/wez.mg/public_html/event_old/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/wezmg/domains/wez.mg/public_html/event_old/app/Models/EventModel.php(14): CodeIgniter\Model->findAll()
+#5 /home/wezmg/domains/wez.mg/public_html/event_old/app/Controllers/EventWSController.php(24): App\Models\EventModel->getAll()
+#6 /home/wezmg/domains/wez.mg/public_html/event_old/app/Controllers/EventWSController.php(18): App\Controllers\EventWSController->liste()
+#7 /home/wezmg/domains/wez.mg/public_html/event_old/system/CodeIgniter.php(914): App\Controllers\EventWSController->index()
+#8 /home/wezmg/domains/wez.mg/public_html/event_old/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#9 /home/wezmg/domains/wez.mg/public_html/event_old/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/wezmg/domains/wez.mg/public_html/event_old/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-28 06:58:36 --> Class 'App\Models\UserAccountModel' not found
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\AgendaController->liste()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgendaController))
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-28 07:23:29 --> Too few arguments to function App\Controllers\UserWSController::updateUser(), 0 passed in /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserWSController->updateUser()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserWSController))
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

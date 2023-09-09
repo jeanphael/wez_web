@@ -1,0 +1,21 @@
+@media only screen and (min-width:512px) {
+    #updatedSlider .MS-content .item p {
+        margin: 0 !important;
+        padding: 3px 3px !important;
+        display: flex !important;
+        white-space: initial !important;
+    }
+    .title {
+        font-size: 12px !important;
+        white-space: initial;
+    }
+    .imgInd {
+        width: 10%;
+        height: 10%;
+    }
+    .img-event {
+        width: 100% !important;
+        height: 75px !important;
+        object-fit: cover !important;
+    }
+}

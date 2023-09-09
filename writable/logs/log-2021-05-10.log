@@ -1,0 +1,43 @@
+CRITICAL - 2021-05-10 00:52:02 --> Function name must be a string
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(302): App\Models\UserModel->userListAdmin()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->manageAdmin()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 00:53:51 --> Cannot use object of type stdClass as array
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('utilisateur_lis...', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(303): view('utilisateur_lis...', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->manageAdmin()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 00:56:07 --> Cannot use object of type stdClass as array
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('utilisateur_lis...', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(303): view('utilisateur_lis...', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->manageAdmin()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 00:57:33 --> Cannot use object of type stdClass as array
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('utilisateur_lis...', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(303): view('utilisateur_lis...', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->manageAdmin()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 02:01:27 --> Cannot use object of type stdClass as array
+#0 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include()
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('utilisateur_lis...', Array, true)
+#2 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(18): view('utilisateur_lis...', Array)
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->liste()
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,68 @@
+CRITICAL - 2020-06-07 10:08:46 --> Invalid file: price.php
+#0 C:\wamp64\www\event\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('price.php')
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('price', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\PriceController.php(14): view('price', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PriceController->liste()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-07 10:09:01 --> Invalid file: place.php
+#0 C:\wamp64\www\event\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('place.php')
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('place', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\PlaceController.php(14): view('place', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PlaceController->liste()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaceController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-07 10:42:41 --> Illegal string offset 'idPlace'
+#0 C:\wamp64\www\event\app\Controllers\PointOfSaleController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\e...', 65, Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PointOfSaleController->save()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PointOfSaleController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-07 10:42:59 --> Illegal string offset 'idPlace'
+#0 C:\wamp64\www\event\app\Controllers\PointOfSaleController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\e...', 65, Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PointOfSaleController->save()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PointOfSaleController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-07 10:43:15 --> Illegal string offset 'idPlace'
+#0 C:\wamp64\www\event\app\Controllers\PointOfSaleController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\e...', 65, Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PointOfSaleController->save()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PointOfSaleController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-07 10:47:15 --> Illegal string offset 'idPlace'
+#0 C:\wamp64\www\event\app\Controllers\PointOfSaleController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\e...', 65, Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PointOfSaleController->save()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PointOfSaleController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-07 10:52:40 --> syntax error, unexpected ';'
+#0 C:\wamp64\www\event\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\event\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\event\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\event\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-07 12:00:28 --> Class 'App\Controllers\CategoryModel' not found
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-07 12:01:27 --> Call to a member function categoryList() on null
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

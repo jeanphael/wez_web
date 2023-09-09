@@ -1,0 +1,11 @@
+CRITICAL - 2021-09-18 08:58:52 --> include(menu.php): failed to open stream: No such file or directory
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Views/evenement_liste_refonte.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(menu.ph...', '/home/wezmg/dom...', 6, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/services/app/Views/evenement_liste_refonte.php(6): include()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include('/home/wezmg/dom...')
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_liste...', Array, true)
+#4 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(43): view('evenement_liste...', Array)
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->listeRefonte()
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#7 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

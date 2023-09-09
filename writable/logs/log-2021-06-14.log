@@ -1,0 +1,7 @@
+CRITICAL - 2021-06-14 10:28:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventWSController.php(418): App\Models\EventModel->eventLike('72')
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventWSController->searchLikeByIdUser()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

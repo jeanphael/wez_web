@@ -1,0 +1,71 @@
+CRITICAL - 2020-06-14 10:20:39 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-14 10:20:40 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-14 10:20:40 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-14 10:20:40 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-14 10:20:42 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-14 10:22:42 --> Cannot use object of type App\Entities\Organizer as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_li...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\OrganizerController.php(54): view('organisateur_li...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 10:24:38 --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+#0 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_li...', Array, true)
+#1 C:\wamp64\www\event\app\Controllers\OrganizerController.php(54): view('organisateur_li...', Array)
+#2 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#4 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 10:25:05 --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+#0 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_li...', Array, true)
+#1 C:\wamp64\www\event\app\Controllers\OrganizerController.php(54): view('organisateur_li...', Array)
+#2 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#4 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 10:25:07 --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+#0 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_li...', Array, true)
+#1 C:\wamp64\www\event\app\Controllers\OrganizerController.php(54): view('organisateur_li...', Array)
+#2 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#4 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 10:25:07 --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+#0 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_li...', Array, true)
+#1 C:\wamp64\www\event\app\Controllers\OrganizerController.php(54): view('organisateur_li...', Array)
+#2 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->organizerList()
+#3 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#4 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

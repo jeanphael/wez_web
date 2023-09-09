@@ -1,0 +1,14 @@
+CRITICAL - 2022-02-11 12:54:31 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php on line 562
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(562): view('administrateur_...', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->listeAdminRefonte()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 12:54:46 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php on line 571
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/UserController.php(571): view('utilisateur_lis...', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\UserController->listeRefonte()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

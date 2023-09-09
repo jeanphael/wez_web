@@ -1,0 +1,7 @@
+CRITICAL - 2022-03-02 11:47:26 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php on line 2013
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(2013): view('evenement_info', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

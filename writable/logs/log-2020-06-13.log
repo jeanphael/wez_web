@@ -1,0 +1,329 @@
+CRITICAL - 2020-06-13 03:27:21 --> syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\wamp64\www\event\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\event\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\event\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\event\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-13 03:27:35 --> Call to undefined function App\Controllers\add()
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-13 03:33:08 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\event\app\Views\evenement_similaire.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\e...', 227, Array)
+#1 C:\wamp64\www\event\system\View\View.php(246): include('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#3 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#4 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#5 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-13 03:39:56 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\event\app\Views\evenement_similaire.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\e...', 227, Array)
+#1 C:\wamp64\www\event\system\View\View.php(246): include('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#3 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#4 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#5 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-13 03:40:08 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:41:17 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:41:21 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:41:22 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:41:22 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:41:34 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:41:35 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:41:35 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:41:56 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:43:06 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:14:39 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:14:40 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:14:41 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:14:41 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:15:36 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:15:37 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:16:20 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:16:20 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(52): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:18:40 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\event\app\Controllers\EventController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\e...', 52, Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-13 04:19:29 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-13 04:21:23 --> Object of class App\Entities\Category could not be converted to string
+#0 C:\wamp64\www\event\app\Controllers\EventController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\e...', 55, Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-13 04:21:35 --> Object of class App\Entities\Category could not be converted to string
+#0 C:\wamp64\www\event\app\Controllers\EventController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\e...', 55, Array)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-13 04:23:38 --> syntax error, unexpected '>'
+#0 C:\wamp64\www\event\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\event\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\event\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\event\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-13 04:26:36 --> Call to undefined function App\Controllers\len()
+#0 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#1 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#2 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-13 04:41:01 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(54): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:41:03 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(54): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:41:03 --> Cannot use object of type App\Entities\Category as array
+#0 C:\wamp64\www\event\system\View\View.php(246): include()
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('evenement_simil...', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(54): view('evenement_simil...', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getSimilarEvent()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 05:00:03 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\event\app\Views\organisateur_ajout.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\e...', 266, Array)
+#1 C:\wamp64\www\event\system\View\View.php(246): include('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('organisateur_aj...', Array, true)
+#3 C:\wamp64\www\event\app\Controllers\OrganizerController.php(22): view('organisateur_aj...')
+#4 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\OrganizerController->ajout()
+#5 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizerController))
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-13 05:02:28 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\event\app\Views\pdv_ajout.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\e...', 241, Array)
+#1 C:\wamp64\www\event\system\View\View.php(246): include('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('pdv_ajout', Array, true)
+#3 C:\wamp64\www\event\app\Controllers\PointOfSaleController.php(21): view('pdv_ajout')
+#4 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\PointOfSaleController->ajout()
+#5 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PointOfSaleController))
+#6 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-13 12:51:25 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\event\app\Controllers\EventController.php on line 67
+#0 C:\wamp64\www\event\app\Controllers\EventController.php(67): view('events', NULL)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getListEventByOrganizer()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-13 12:52:17 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\event\app\Controllers\EventController.php on line 61
+#0 C:\wamp64\www\event\app\Controllers\EventController.php(61): view('events', NULL)
+#1 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getListSimilarEventByCategory()
+#2 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#3 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-13 12:53:06 --> Invalid file: events.php
+#0 C:\wamp64\www\event\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('events.php')
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('events', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(61): view('events', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getListSimilarEventByCategory()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 12:53:22 --> Invalid file: events.php
+#0 C:\wamp64\www\event\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('events.php')
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('events', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(61): view('events', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getListSimilarEventByCategory()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 12:53:40 --> Invalid file: events.php
+#0 C:\wamp64\www\event\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('events.php')
+#1 C:\wamp64\www\event\system\Common.php(1087): CodeIgniter\View\View->render('events', Array, true)
+#2 C:\wamp64\www\event\app\Controllers\EventController.php(67): view('events', Array)
+#3 C:\wamp64\www\event\system\CodeIgniter.php(914): App\Controllers\EventController->getListEventByOrganizer()
+#4 C:\wamp64\www\event\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#5 C:\wamp64\www\event\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\event\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

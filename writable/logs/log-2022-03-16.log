@@ -1,0 +1,58 @@
+CRITICAL - 2022-03-16 17:34:14 --> Call to undefined method App\Models\EventModel::eventDetailsByIdws
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventWSController.php(90): CodeIgniter\Model->__call('eventDetailsByI...', Array)
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventWSController->eventDetailsById()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 17:35:54 --> Call to undefined method App\Models\EventModel::eventDetailsByIdws
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventWSController.php(90): CodeIgniter\Model->__call('eventDetailsByI...', Array)
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventWSController->eventDetailsById()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 17:36:07 --> Call to undefined method App\Models\EventModel::eventDetailsByIdws
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventWSController.php(90): CodeIgniter\Model->__call('eventDetailsByI...', Array)
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventWSController->eventDetailsById()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 17:36:24 --> Call to undefined method App\Models\EventModel::eventDetailsByIdws
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventWSController.php(90): CodeIgniter\Model->__call('eventDetailsByI...', Array)
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventWSController->eventDetailsById()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 17:38:00 --> Call to undefined method App\Models\EventModel::eventDetailsByIdws
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventWSController.php(90): CodeIgniter\Model->__call('eventDetailsByI...', Array)
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventWSController->eventDetailsById()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 17:38:03 --> Call to undefined method App\Models\EventModel::eventDetailsByIdws
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventWSController.php(90): CodeIgniter\Model->__call('eventDetailsByI...', Array)
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventWSController->eventDetailsById()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 18:37:02 --> syntax error, unexpected '}', expecting end of file
+#0 /home/wezmg/domains/wez.mg/public_html/system/Common.php(1087): CodeIgniter\View\View->render('lp_home', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/app/Controllers/UserController.php(100): view('lp_home', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\UserController->index()
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-16 18:37:10 --> syntax error, unexpected '}', expecting end of file
+#0 /home/wezmg/domains/wez.mg/public_html/system/Common.php(1087): CodeIgniter\View\View->render('lp_home', Array, true)
+#1 /home/wezmg/domains/wez.mg/public_html/app/Controllers/UserController.php(100): view('lp_home', Array)
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\UserController->index()
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

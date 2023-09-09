@@ -1,0 +1,10 @@
+CRITICAL - 2021-03-04 05:54:49 --> Use of undefined constant pdvList - assumed 'pdvList' (this will throw an Error in a future version of PHP)
+#0 /home/wezmg/domains/wez.mg/public_html/services/app/Views/evenement_ajout.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/wezmg/dom...', 137, Array)
+#1 /home/wezmg/domains/wez.mg/public_html/services/system/View/View.php(246): include('/home/wezmg/dom...')
+#2 /home/wezmg/domains/wez.mg/public_html/services/system/Common.php(1087): CodeIgniter\View\View->render('evenement_ajout', Array, true)
+#3 /home/wezmg/domains/wez.mg/public_html/services/app/Controllers/EventController.php(541): view('evenement_ajout', Array)
+#4 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(914): App\Controllers\EventController->update()
+#5 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#6 /home/wezmg/domains/wez.mg/public_html/services/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wezmg/domains/wez.mg/public_html/services/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

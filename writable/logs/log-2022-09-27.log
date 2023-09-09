@@ -1,0 +1,7 @@
+CRITICAL - 2022-09-27 13:34:27 --> Call to undefined function App\Controllers\base64_url_decode()
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventWSController.php(610): App\Controllers\EventWSController->parse_signed_request(NULL)
+#1 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventWSController->fbDelection()
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventWSController))
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

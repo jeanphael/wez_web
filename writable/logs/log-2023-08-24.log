@@ -1,0 +1,24 @@
+CRITICAL - 2023-08-24 03:40:34 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php on line 2123
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2123): view('evenement_ajout...', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2071): App\Controllers\EventController->beforeAjoutEvent(Object(CodeIgniter\HTTP\RedirectResponse))
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-24 03:40:39 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php on line 2123
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2123): view('evenement_ajout...', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2071): App\Controllers\EventController->beforeAjoutEvent(Object(CodeIgniter\HTTP\RedirectResponse))
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-24 03:40:44 --> Argument 2 passed to view() must be of the type array, object given, called in /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php on line 2123
+#0 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2123): view('evenement_ajout...', Object(CodeIgniter\HTTP\RedirectResponse))
+#1 /home/wezmg/domains/wez.mg/public_html/app/Controllers/EventController.php(2071): App\Controllers\EventController->beforeAjoutEvent(Object(CodeIgniter\HTTP\RedirectResponse))
+#2 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(914): App\Controllers\EventController->pageInfoEvent()
+#3 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#4 /home/wezmg/domains/wez.mg/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wezmg/domains/wez.mg/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

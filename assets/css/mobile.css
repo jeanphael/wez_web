@@ -1,0 +1,27 @@
+@media only screen and (max-width:512px) {
+    #updatedSlider .MS-content .item p {
+        margin: 0 !important;
+        padding: 4px 3px !important;
+        display: flex !important;
+        white-space: initial !important;
+        font-size: 13px !important;
+    }
+    .title {
+        font-size: 12px !important;
+        white-space: initial;
+    }
+    .imgInd {
+        width: 12px;
+        height: 12px;
+    }
+    .imgEvent {
+        width: 100% !important;
+        height: 75px !important;
+        object-fit: cover !important;
+    }
+    .swiper-slide {
+        font-size: 12px !important;
+        height: 27px !important;
+        margin-right: 8px !important;
+    }
+}
